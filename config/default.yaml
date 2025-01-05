@@ -1,0 +1,48 @@
+# Default parameters for Wheel-GINS 
+
+imudatalen: 7
+imudatarate: 200
+
+initAlignmentTime: 5 #unit: s
+ 
+initposstd: [ 0.05, 0.05, 0.05 ] # m
+initvelstd: [ 0.05, 0.05, 0.05 ] # m/s
+initattstd: [ 1.0, 1.0, 0.1 ] # deg
+
+# Velocity update time interval
+ODO_dt: 0.5
+
+imunoise:
+  arw: 1.2          # [deg/sqrt(hr)]
+  vrw: 6          # [m/s/sqrt(hr)]
+  gbstd: 50        # [deg/hr]
+  abstd: 2000     # [mGal]
+  gsstd: 50  # [ppm]
+  asstd: 500  # [ppm]
+  corrtime: 0.5                    # [hr]
+
+
+GNSSfusion:
+  if_fuse_gnss: true
+  if_set_gnss_outage: false
+  frequency: 1 # [Hz]
+
+
+Options:
+  if_use_zupt: true
+  if_use_angular_velocity_update: true
+
+  zupt_noise_std: 0.02
+  zihr_noise_std: 0.01
+  angular_velocity_update_noise_std: 1 # unit:deg/s
+
+  if_estimate_wheelimu_leverarm: true
+  if_estimate_wheel_radius_scale: true
+  if_estimate_wheelimu_mounting_angle: true
+
+  wheelimu_leverarm_std: 0.005 # [m] Only for y- and z-axis
+  wheelimu_leverarm_noise: 0.0001 # noise std of random walk
+  wheel_radius_scale_std: 0.003
+  wheel_radius_scale_noise: 0.0001 # noise std of random walk
+  wheelimu_mounting_angle_std: 0.1 # [deg] 
+  wheelimu_mounting_angle_noise: 0.001 # noise std of random walk

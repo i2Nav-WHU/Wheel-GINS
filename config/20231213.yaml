@@ -1,0 +1,30 @@
+# Mobile Mapping System 
+
+#Linux
+imupath: "/mnt/data/wheelgins/20231213/C4_imu.bin"
+gnsspath: "/mnt/data/wheelgins/20231213/gnss.txt"
+outputpath: "/home/yibin/code/Wheel-GINS/output/20231213"
+
+#Windows
+# imupath: "yourpath to the imu file"
+# outputpath: "yourpath for results output"
+
+
+starttime: 309353 
+endtime:  310767 
+
+
+# Velocity measurement standard deviation
+ODO_std: [0.02, 0.02, 0.02]
+
+Wheel_Radius: 0.2
+
+GNSSfusion:
+
+  GNSSLA: [0.26, 0.38, -1.43] #GNSS Leverarm, the vector from the imu to gnss antenna in the vehicle frame
+  initBLH: [50.72646763, 7.08602897, 108.022]
+  initheading: 188.34 #initial heading of the Wheel-IMU
+ 
+
+  GNSSoutage_epoch: [309980, 310630] # GPS Time [s] 
+  GNSSoutage_interval: 60 # [s]
