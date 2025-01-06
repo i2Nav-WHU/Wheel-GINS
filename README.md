@@ -63,7 +63,7 @@ If you find our studies helpful to your academic research, please consider citin
 
 - Y. Wu, J. Kuang, X. Niu, C. Stachniss, L. Klingbeil and H. Kuhlmann, "Wheel-GINS: A GNSS/INS Integrated Navigation System with a Wheel-mounted IMU," IEEE Transactions on Intelligent Transportation Systems, 2025. 
 ```bibtex
-@ARTICLE{niu2021tvt,
+@ARTICLE{wu2025tits,
   author={Wu, Yibin and Kuang, Jian and Niu, Xiaoji and Stachniss, Cyrill and Klingbeil, Lasse and Kuhlmann, Heiner},
   journal={IEEE Transactions on Intelligent Transportation Systems}, 
   title={{Wheel-GINS}: A {GNSS/INS} Integrated Navigation System with a Wheel-mounted {IMU}}, 
