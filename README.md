@@ -61,7 +61,7 @@ Once a execuble file **Wheel-INS.exe** is generated, the compilation is done. Th
 ## Related Papers
 If you find our studies helpful to your academic research, please consider citing the related papers.
 
-- Y. Wu, J. Kuang, X. Niu, C. Stachniss, L. Klingbeil and H. Kuhlmann, "Wheel-GINS: A GNSS/INS Integrated Navigation System with a Wheel-mounted IMU," IEEE Transactions on Intelligent Transportation Systems, 2024. 
+- Y. Wu, J. Kuang, X. Niu, C. Stachniss, L. Klingbeil and H. Kuhlmann, "Wheel-GINS: A GNSS/INS Integrated Navigation System with a Wheel-mounted IMU," IEEE Transactions on Intelligent Transportation Systems, 2025. 
 ```bibtex
 @ARTICLE{niu2021tvt,
   author={Wu, Yibin and Kuang, Jian and Niu, Xiaoji and Stachniss, Cyrill and Klingbeil, Lasse and Kuhlmann, Heiner},
@@ -89,6 +89,6 @@ If you find our studies helpful to your academic research, please consider citin
 The code is released under GPLv3 license.
 
 ## Acknowledgement
-We would like to thank i2Nav group for sharing [KF-GINS](https://github.com/i2Nav-WHU/KF-GINS), which is referenced by this code. 
+Thanks to [KF-GINS](https://github.com/i2Nav-WHU/KF-GINS). 
 
 For any questions, please feel free to contact Mr. Yibin Wu (ybwu at whu.edu.cn) or Dr. Jian Kuang (kuang at whu.edu.cn).
