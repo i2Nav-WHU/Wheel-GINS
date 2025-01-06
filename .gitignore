@@ -1,7 +1,6 @@
 bin/
 lib/
 build/
-3rdParty/
 .vscode/
 .idea/
 output/
