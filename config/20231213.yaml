@@ -1,7 +1,7 @@
 # Mobile Mapping System 
 
 #Linux
-imupath: "/mnt/data/wheelgins/20231213/C4_imu.bin"
+imupath: "/mnt/data/wheelgins/20231213/imu.bin"
 gnsspath: "/mnt/data/wheelgins/20231213/gnss.txt"
 outputpath: "/home/yibin/code/Wheel-GINS/output/20231213"
 
