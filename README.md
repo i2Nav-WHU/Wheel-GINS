@@ -5,7 +5,7 @@
   <p align="center">
     <a href="https://arxiv.org/pdf/2501.03079"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
     <a href="https://github.com/i2Nav-WHU/Wheel-GINS"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a> <a href="https://github.com/i2Nav-WHU/Wheel-GINS"><img src="https://img.shields.io/badge/Windows-0078D6?st&logo=windows&logoColor=white" /></a>
-    <a href="https://github.com/YibinWu/LIO-EKF/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square" /></a> 
+    <a href="https://github.com/i2Nav-WHU/Wheel-GINS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square" /></a> 
     
   </p>
 
