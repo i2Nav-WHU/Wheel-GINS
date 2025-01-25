@@ -3,7 +3,7 @@
   <h1 align="center">Wheel-GINS: A GNSS/INS Integrated Navigation System with a Wheel-mounted IMU</h1>
 
   <p align="center">
-    <a href="https://arxiv.org/pdf/2311.09887"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
+    <a href="https://arxiv.org/pdf/2501.03079"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
     <a href="https://github.com/i2Nav-WHU/Wheel-GINS"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a> <a href="https://github.com/i2Nav-WHU/Wheel-GINS"><img src="https://img.shields.io/badge/Windows-0078D6?st&logo=windows&logoColor=white" /></a>
     <a href="https://github.com/YibinWu/LIO-EKF/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square" /></a> 
     
@@ -11,7 +11,7 @@
 
 </p>
 
-**Wheel-GINS is an integrated navigation system that combines GNSS data with a wheel-mounted IMU (Wheel-IMU). Building on insights from our previous study, [Wheel-INS](https://github.com/i2Nav-WHU/Wheel-INS), which highlighted the significant advantages of the Wheel-IMU, we propose Wheel-GINS to further enhance localization accuracy and robustness. It performs a similar information fusion process as the conventional GNSS/Odometer/IMU integrated systems. Moreover, all Wheel-IMU installation parameters are estimated online in Wheel-GINS, enhancing the system's practicality and adaptability.**
+**Wheel-GINS is an integrated navigation system that fuses GNSS with a wheel-mounted IMU (Wheel-IMU). Building on insights from our previous study, [Wheel-INS](https://github.com/i2Nav-WHU/Wheel-INS), which highlighted the significant advantages of the Wheel-IMU, we propose Wheel-GINS to further enhance localization accuracy and robustness. It performs a similar information fusion process as the conventional GNSS/Odometer/IMU integrated systems. Moreover, all Wheel-IMU installation parameters are estimated online in Wheel-GINS, enhancing the system's practicality and adaptability.**
 
 ![wheelgins_overview](https://github.com/user-attachments/assets/aa31d91c-9b43-4287-8f17-a63c124285d7)
 
